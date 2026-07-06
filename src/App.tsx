@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import { DotmCircular7 } from './DotmCircular7'
 
-const BG_IMAGE_1 = '/images/background-model-expanded.png'
-const BG_IMAGE_2 = '/images/foreground-model-expanded.png'
+const BG_IMAGE_1 = `${import.meta.env.BASE_URL}images/background-model-expanded.png`
+const BG_IMAGE_2 = `${import.meta.env.BASE_URL}images/foreground-model-expanded.png`
 
 const SPOTLIGHT_R = 260
 
